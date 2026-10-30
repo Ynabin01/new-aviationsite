@@ -31,7 +31,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="{{ $seo->meta_keywords ?? '' }}">
     <meta name="description"
-        content="{{ $seo->meta_description ?? 'Aviation Hub Nepal offers expert aviation education consulting, pilot training guidance, and global aviation study abroad services.' }}">
+        content="{{ $seo->meta_description ?? 'Aviation Services Nepal offers expert aviation education consulting, pilot training guidance, and global aviation study abroad services.' }}">
     <meta name="google-site-verification" content="q6QJ5VbiopGq0yJK3g9ZkUV4IBNO3ETY2s4VJCPpVsY" />
     <meta name="google-adsense-account" content="ca-pub-3821644976826249">
     <!-- Favicon -->
@@ -60,129 +60,6 @@
 </head>
 
 <body>
-
-    <!-- Dashain Celebration -->
-    <div id="ahn-dashain-celebration">
-
-        <!-- Flying Kites and Balloons -->
-        <div class="ahn-kite-scene" aria-hidden="true">
-
-            <!-- Golden Kite -->
-            <div class="ahn-flying-kite ahn-kite-one">
-                <svg viewBox="0 0 100 130" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M50 5 L92 43 L50 85 L8 43 Z" fill="#d4a43c" stroke="#fff0b5" stroke-width="2" />
-                    <path d="M50 5 L50 85 M8 43 L92 43" fill="none" stroke="#fff0b5" stroke-width="1.5" />
-                    <path d="M50 85 Q60 100 48 110 Q40 118 51 128" fill="none" stroke="#fff0b5" stroke-width="1.5" />
-                    <path d="M50 85 L62 96 L49 100 L57 110" fill="none" stroke="#d4a43c" stroke-width="2" />
-                    <path d="M50 15 L79 43 L50 72 L21 43 Z" fill="none" stroke="#fff0b5" stroke-width="1" />
-                </svg>
-            </div>
-
-            <!-- Red Kite -->
-            <div class="ahn-flying-kite ahn-kite-two">
-                <svg viewBox="0 0 100 130" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M50 5 L92 43 L50 85 L8 43 Z" fill="#b51e36" stroke="#ffd5dc" stroke-width="2" />
-                    <path d="M50 5 L50 85 M8 43 L92 43" fill="none" stroke="#ffd5dc" stroke-width="1.5" />
-                    <path d="M50 85 Q60 100 48 110 Q40 118 51 128" fill="none" stroke="#ffd5dc" stroke-width="1.5" />
-                    <path d="M50 85 L62 96 L49 100 L57 110" fill="none" stroke="#ffd5dc" stroke-width="2" />
-                    <path d="M50 15 L79 43 L50 72 L21 43 Z" fill="none" stroke="#ffd5dc" stroke-width="1" />
-                </svg>
-            </div>
-
-            <!-- Blue Kite -->
-            <div class="ahn-flying-kite ahn-kite-three">
-                <svg viewBox="0 0 100 130" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M50 5 L92 43 L50 85 L8 43 Z" fill="#176a91" stroke="#c8efff" stroke-width="2" />
-                    <path d="M50 5 L50 85 M8 43 L92 43" fill="none" stroke="#c8efff" stroke-width="1.5" />
-                    <path d="M50 85 Q60 100 48 110 Q40 118 51 128" fill="none" stroke="#c8efff" stroke-width="1.5" />
-                    <path d="M50 85 L62 96 L49 100 L57 110" fill="none" stroke="#c8efff" stroke-width="2" />
-                </svg>
-            </div>
-
-            <!-- Floating Balloons -->
-            <div class="ahn-balloon ahn-balloon-one"><span></span></div>
-            <div class="ahn-balloon ahn-balloon-two"><span></span></div>
-            <div class="ahn-balloon ahn-balloon-three"><span></span></div>
-            <div class="ahn-balloon ahn-balloon-four"><span></span></div>
-
-        </div>
-
-        <!-- Dashain Welcome Popup -->
-        <div class="ahn-dashain-overlay" id="ahnDashainOverlay" role="dialog" aria-modal="true"
-            aria-labelledby="ahnDashainTitle">
-
-            <div class="ahn-dashain-modal">
-
-                <!-- Close Button -->
-                <button type="button" class="ahn-dashain-close" id="ahnDashainClose" aria-label="Close greeting">
-                    &times;
-                </button>
-
-                <div class="ahn-modal-decoration ahn-decoration-top"></div>
-
-                <div class="ahn-dashain-content">
-
-                    <!-- Festival Label -->
-                    <div class="ahn-dashain-label">
-                        <span class="ahn-label-line"></span>
-                        FESTIVAL OF VICTORY
-                        <span class="ahn-label-line"></span>
-                    </div>
-
-                    <!-- Goddess Durga Mata Image -->
-                    <div class="ahn-durga-frame">
-
-                        <img src="{{ asset('website/img/db.png') }}" alt="Goddess Durga Mata"
-                            class="ahn-durga-image"
-                            onerror="this.closest('.ahn-durga-frame').classList.add('ahn-image-unavailable'); this.style.display='none';" />
-
-                        <!-- Fallback if image is unavailable -->
-                        <div class="ahn-image-fallback">
-                            <span class="ahn-fallback-symbol">🙏</span>
-                            <span>जय माता दी</span>
-                        </div>
-
-                    </div>
-
-                    <!-- Greeting -->
-                    <p class="ahn-dashain-subtitle">
-                        Warm wishes on the occasion of
-                    </p>
-
-                    <h2 id="ahnDashainTitle" class="ahn-dashain-title">
-                        Happy <span>Dashain</span>
-                    </h2>
-
-                    <div class="ahn-title-ornament">
-                        <span></span>
-                        <i>✦</i>
-                        <span></span>
-                    </div>
-
-                    <p class="ahn-dashain-message">
-                        May Goddess Durga bless you and your family
-                        with happiness, prosperity, courage and success.
-                    </p>
-
-                    <p class="ahn-dashain-welcome">
-                        Welcome to <strong>Aviation Hub Nepal</strong>
-                    </p>
-
-                    <!-- Explore Button -->
-                    <button type="button" class="ahn-dashain-button" id="ahnDashainExplore">
-                        Explore Our Website
-                        <span aria-hidden="true">→</span>
-                    </button>
-                    <p class="ahn-dashain-footer">
-                        Wishing you a joyful and prosperous Dashain
-                    </p>
-                </div>
-                <div class="ahn-modal-decoration ahn-decoration-bottom"></div>
-            </div>
-        </div>
-    </div>
-
-    <!-- End Dashain Celebration -->
 
     <!-- Top Bar -->
     <div class="container-fluid bg-dark text-light py-2">
@@ -579,7 +456,7 @@
 
                             <a href="/" class="ahn-pf-logo">
                                 <img src="/uploads/icons/{{ $global_setting->site_logo }}"
-                                    alt="{{ $global_setting->site_name ?? 'Aviation Hub Nepal' }}" loading="lazy">
+                                    alt="{{ $global_setting->site_name ?? 'Aviation Services Nepal' }}" loading="lazy">
                             </a>
 
                             <p class="ahn-pf-description">
@@ -716,7 +593,7 @@
                                 <div class="ahn-pf-map-frame">
                                     <iframe
                                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44668.46432989629!2d85.28493276485202!3d27.70903024219139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb198a307baabf%3A0xb5137c1bf18db1ea!2sKathmandu%2044600!5e1!3m2!1sen!2snp!4v1755687932394!5m2!1sen!2snp"
-                                        title="Aviation Hub Nepal location map" loading="lazy" allowfullscreen
+                                        title="Aviation Services Nepal location map" loading="lazy" allowfullscreen
                                         referrerpolicy="no-referrer-when-downgrade">
                                     </iframe>
                                 </div>
@@ -738,7 +615,7 @@
                 {{-- Footer Signature --}}
                 <div class="ahn-pf-signature">
                     <span class="ahn-pf-signature-line"></span>
-                    <span>AVIATION HUB NEPAL</span>
+                    <span>AVIATION SERVICES NEPAL</span>
                     <span class="ahn-pf-signature-line"></span>
                 </div>
 
@@ -752,12 +629,12 @@
 
                     <p class="ahn-pf-copyright">
                         &copy; {{ date('Y') }}
-                        {{ $global_setting->site_name ?? 'Aviation Hub Nepal' }}.
+                        {{ $global_setting->site_name ?? 'Aviation Services Nepal' }}.
                         All rights reserved.
                     </p>
 
                     <p class="ahn-pf-credit">
-                        Crafted by
+                        Developed By
                         <a href=" " target="_blank" rel="noopener noreferrer">
                             NABIN YADAV
                         </a>
@@ -971,85 +848,7 @@
             }
         }
     </style>
-    <script>
-
-        (function () {
-            "use strict";
-
-            function initializeDashainCelebration() {
-                const root = document.getElementById("ahn-dashain-celebration");
-
-                if (!root) {
-                    return;
-                }
-
-                const overlay = root.querySelector("#ahnDashainOverlay");
-                const closeButton = root.querySelector("#ahnDashainClose");
-                const exploreButton = root.querySelector("#ahnDashainExplore");
-
-                if (!overlay || !closeButton || !exploreButton) {
-                    return;
-                }
-
-                const sessionKey = "ahnDashainGreetingSeen";
-                let previouslySeen = false;
-
-                try {
-                    previouslySeen = sessionStorage.getItem(sessionKey) === "yes";
-                } catch (error) {
-                    previouslySeen = false;
-                }
-
-                function openGreeting() {
-                    overlay.classList.add("ahn-is-visible");
-                    document.body.classList.add("ahn-dashain-modal-open");
-
-                    try {
-                        sessionStorage.setItem(sessionKey, "yes");
-                    } catch (error) {
-                        // Continue if browser storage is unavailable.
-                    }
-                }
-
-                function closeGreeting() {
-                    overlay.classList.remove("ahn-is-visible");
-                    document.body.classList.remove("ahn-dashain-modal-open");
-                }
-
-                closeButton.addEventListener("click", closeGreeting);
-                exploreButton.addEventListener("click", closeGreeting);
-
-                overlay.addEventListener("click", function (event) {
-                    if (event.target === overlay) {
-                        closeGreeting();
-                    }
-                });
-
-                document.addEventListener("keydown", function (event) {
-                    if (
-                        event.key === "Escape" &&
-                        overlay.classList.contains("ahn-is-visible")
-                    ) {
-                        closeGreeting();
-                    }
-                });
-
-                if (!previouslySeen) {
-                    window.setTimeout(openGreeting, 700);
-                }
-            }
-
-            if (document.readyState === "loading") {
-                document.addEventListener(
-                    "DOMContentLoaded",
-                    initializeDashainCelebration
-                );
-            } else {
-                initializeDashainCelebration();
-            }
-        })();
-
-    </script>
+    
 </body>
 
 </html>

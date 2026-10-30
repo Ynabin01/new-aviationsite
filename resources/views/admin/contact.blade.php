@@ -62,7 +62,7 @@
                         </div>
 
                         <div class="ahn-contact-card-footer">
-                            <span>Visit Aviation Hub Nepal</span>
+                            <span>Visit Aviation Services Nepal</span>
                             <i class="fas fa-arrow-right"></i>
                         </div>
                     </div>
@@ -128,7 +128,7 @@
                     {{-- Left Information Panel --}}
                     <div class="ahn-contact-side-panel" data-aos="fade-right">
 
-                        <span class="ahn-contact-side-label">AVIATION HUB NEPAL</span>
+                        <span class="ahn-contact-side-label">AVIATION SERVICES NEPAL</span>
 
                         <h2>
                             Your Aviation Journey
@@ -293,7 +293,7 @@
                     <div class="ahn-contact-map">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44668.46432989629!2d85.28493276485202!3d27.70903024219139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb198a307baabf%3A0xb5137c1bf18db1ea!2sKathmandu%2044600!5e1!3m2!1sen!2snp!4v1755687932394!5m2!1sen!2snp"
-                            title="Aviation Hub Nepal location map" width="100%" height="380" style="border:0;"
+                            title="Aviation Services Nepal location map" width="100%" height="380" style="border:0;"
                             allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                         </iframe>
                     </div>

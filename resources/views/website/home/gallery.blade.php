@@ -29,7 +29,7 @@ AVIATION HUB NEPAL | MOMENTS & GALLERY
 
             <p class="ahn-gallery-subtitle">
                 A glimpse into our experiences, achievements, training activities,
-                and memorable journeys at Aviation Hub Nepal.
+                and memorable journeys at Aviation Services Nepal.
             </p>
         </div>
 

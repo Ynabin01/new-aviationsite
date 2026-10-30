@@ -22,7 +22,7 @@
 
             <div class="ahn-blog-heading-left">
                 <span class="ahn-blog-kicker">
-                    AVIATION HUB NEPAL
+                    AVIATION SERVICES NEPAL
                     <span class="ahn-blog-kicker-line"></span>
                     JOURNAL
                 </span>
@@ -75,7 +75,7 @@
 
                         <img
                             src="{{ $ahnFeaturedBlog->banner_image ?: '/website/img/default-blog.jpg' }}"
-                            alt="{{ strip_tags($ahnFeaturedBlog->caption ?? 'Aviation Hub Nepal article') }}"
+                            alt="{{ strip_tags($ahnFeaturedBlog->caption ?? 'Aviation Services Nepal article') }}"
                             loading="lazy">
 
                         <span class="ahn-blog-featured-label">
@@ -162,7 +162,7 @@
 
                                 <img
                                     src="{{ $sideBlog->banner_image ?: '/website/img/default-blog.jpg' }}"
-                                    alt="{{ strip_tags($sideBlog->caption ?? 'Aviation Hub Nepal article') }}"
+                                    alt="{{ strip_tags($sideBlog->caption ?? 'Aviation Services Nepal article') }}"
                                     loading="lazy">
                             </a>
 
@@ -227,7 +227,7 @@
             <span class="ahn-blog-bottom-line"></span>
 
             <p>
-                <span>AVIATION HUB NEPAL</span>
+                <span>AVIATION SERVICES NEPAL</span>
                 &nbsp; / &nbsp; Ideas, insights and inspiration for your journey.
             </p>
 

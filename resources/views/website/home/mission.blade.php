@@ -1,6 +1,6 @@
  
 <!-- ==========================================
-     AVIATION HUB NEPAL | MISSION VISION VALUES
+     AVIATION SERVICES NEPAL | MISSION VISION VALUES
 =========================================== -->
 
 <section id="ahn-mvv-section">
@@ -96,7 +96,7 @@
                     </h3>
 
                     <p>
-                        Aviation Hub Nepal is committed to helping students
+                        Aviation Services Nepal is committed to helping students
                         explore educational opportunities through dependable
                         information, personalized guidance, and informed
                         decision-making for their future.
@@ -198,7 +198,7 @@
 
 <style>
 /* ==========================================
-   AVIATION HUB NEPAL MVV SECTION
+   AVIATION SERVICES NEPAL MVV SECTION
    All styles isolated with ahn-mvv-
 ========================================== */
 
